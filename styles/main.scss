@@ -1,0 +1,25 @@
+@use "vendor/normalize";
+@use "partials/colors";
+
+nav {
+  background-color: black;
+  ul {
+    li {
+      list-style: none;
+      display: inline;
+      padding: 5px;
+      a {
+        color: colors.$primary-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.primary {
+  background-color: colors.$primary-color;
+}
+
+.primary-two {
+  background-color: colors.$primary-color;
+}
